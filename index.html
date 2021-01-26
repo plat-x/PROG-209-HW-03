@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Customer Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+
+<body>
+	<main>
+		<h1>HW 3 - Customer Form</h1>
+
+		<form id="customerForm" onsubmit="return false">
+			<fieldset id="customerInfo">
+				<legend>Customer Information</legend>
+				<label for="customerLastNameInput">Name:</label>
+				<input type="text" id="customerLastNameInput" name="customerLastName" placeholder="Last Name" autofocus>
+				<label for="cityInput">City:</label>
+				<input type="text" id="cityInput" name="city" value="Seattle">
+				<label for="paymentPreferenceInput">Payment Preference:</label>
+				<select id="paymentPreferenceInput" name="paymentPreference">
+					<option value="Cash">Cash</option>
+					<option value="Credit" selected>VISA or MC</option>
+					<option value="Debit">Debit Card</option>
+				</select>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+
+		<div id="displayArea">
+			<h3>My Customers</h3>
+			<ul id="myUl"></ul>
+		</div>
+	</main>
+
+	<footer>
+		<br>
+		<hr>
+		<p>For educational purposes only.</p>
+	</footer>
+
+</body>
+</html>

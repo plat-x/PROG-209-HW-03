@@ -1,0 +1,45 @@
+fieldset, #displayArea {
+	background-color: rgb(255, 246, 205);border: 1px solid rgb(233, 69, 0);
+	margin: 10px 10px 20px 10px;
+	width: 426.875px;
+}
+
+legend {
+	background-color: rgb(233, 69, 0);
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+#stateInput {
+	width: 50px;
+}
+
+#displayArea {
+	padding: 0px 12px;
+}
